@@ -1,7 +1,7 @@
 #content {
     max-width: 1600px;
     margin: 0 auto;
-    background-color: pink;
+    background-color: rgb(95, 208, 208);
     text-align: center;
 }
 nav a{
@@ -21,4 +21,11 @@ h3 {
 img {
     width: 100px;
 }
-
+#quote {
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+.ul {
+    list-style: auto;
+}
