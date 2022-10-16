@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,12 +8,15 @@ nav a {
     text-align: center;
     color: aliceblue;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
+    font-family: Oswald, Helvetica, sans-serif;
 }
 .button-box {
     text-align: center;
+    padding: 30px;
 }
 main section {
     text-align: center;
@@ -21,6 +26,10 @@ main section {
 }
 body {
     background-color: azure;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #457B9D;
@@ -33,19 +42,24 @@ nav a:hover {
     background-color: #457B9D;
     color: #A8DADC;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px; 
+    margin-top: 50px;
+    border-radius: 5px;
 }
 #background {
     background-color: #A8DADC;
 }
 .msg {
    background-color:  #1D3557;  
+   line-height: 1.5em;
+   padding: 35px;
 }
 footer {
    background-color:  #1d3557;
    color: #A8DADC;
-}
-.home-title {
-    color:#A8DADC;
+   padding: 25px 50px;
+   margin-top: 200px;
 }
 h4 {
     color: #1D3557;
@@ -58,6 +72,8 @@ h4 {
 }
 .msg p {
     color: #A8DADC;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer a {
     color: #A8DADC;
@@ -71,6 +87,7 @@ footer a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
@@ -80,4 +97,28 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+.home-title {
+    color: #A8DADC;
+    font-family: 'Oswald', Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #1D3557;
+}
+main section img {
+    box-sizing: border-box;
 }
