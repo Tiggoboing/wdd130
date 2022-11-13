@@ -69,12 +69,15 @@ header {
     margin-top: 50px;
     border-radius: 5px;
 }
+* {
+    box-sizing: border-box;
+}
 .Fork, .Gray, .Grand {
     background-color: #457B9D;
     color: #A8DADC;
     text-decoration: none;
     font-size: 16px;
-    padding: 15px 30px;
+    padding: 15px;
     margin-top: 50px;
     border-radius: 5px;
     line-height: 1.5em;
@@ -83,16 +86,16 @@ header {
     transition: transform .5s;
     box-shadow: 5px 5px 10px #457B9D;
 }
-.Fork {grid-column:1/4;
+.Fork {
+    grid-column:2/4;
     grid-row: 3/4;
 }
-    
 .Gray {
-    grid-column: 4/7;
+    grid-column: 5/7;
     grid-row: 3/4;  
 }
 .Grand {
-    grid-column: 7/10;
+    grid-column: 8/10;
     grid-row: 3/4;
 }
 #background {
