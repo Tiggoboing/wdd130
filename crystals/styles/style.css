@@ -11,6 +11,11 @@ nav a {
     text-decoration: none;
     padding: 35px;
 }
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self:center;
+}
 nav {
     display: flex;
     justify-content: space-around;
@@ -246,7 +251,7 @@ main section img {
         font-size: 25px;
         color: #6f7364;
     }
-    .rivers-card, .camping-card, .rapids-card { 
+    .herkimer-card, .lemon-card { 
         margin: 50px auto;
         width: 60%;
     }
