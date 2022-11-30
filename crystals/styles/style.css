@@ -94,6 +94,7 @@ footer {
    display: flex;
    justify-content: space-around;
    align-items: center;
+   font-family: "raleway";
 }
 h4 {
     color:#919;
@@ -101,6 +102,7 @@ h4 {
 .msg h2 {
     color:#c2aff0;
     text-align: center;
+    font-family: "raleway";
 }
 .msg p {
     color:#9191e9;
@@ -211,7 +213,7 @@ main section img {
         display: none;
     }
     .home-title {
-        font-size: 25px;
+        font-size: 20px;
         color: #6f7364;
     }
     .herkimer-card, .lemon-card { 
