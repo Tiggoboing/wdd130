@@ -191,7 +191,7 @@ main section img {
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     #hero, .home-grid {
         display: block;
         height: auto;
@@ -213,7 +213,7 @@ main section img {
         display: none;
     }
     .home-title {
-        font-size: 20px;
+        font-size: 25px;
         color: #6f7364;
     }
     .herkimer-card, .lemon-card { 
