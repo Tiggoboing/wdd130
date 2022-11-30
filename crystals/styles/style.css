@@ -220,6 +220,10 @@ main section img {
         margin: 50px auto;
         width: 60%;
     }
+    .Herkimer Diamonds, .Lemon Quartz {
+        margin-left: auto;
+        font-size: 25px;
+    }
     #background {
         display: none;
     }
