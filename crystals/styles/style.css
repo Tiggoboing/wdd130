@@ -93,7 +93,7 @@ footer {
    display: flex;
    justify-content: space-around;
    align-items: center;
-   font-family: "raleway";
+   font-family: "raleway", Helvetica, sans-serif;
 }
 h4 {
     color:#919;
@@ -101,7 +101,7 @@ h4 {
 .msg h2 {
     color:#c2aff0;
     text-align: center;
-    font-family: "raleway";
+    font-family: "raleway", Helvetica, sans-serif;
         font-size: 40px;
         color: #fff;
         text-align: center;
@@ -156,7 +156,8 @@ footer p a:hover {
 }
 h2 {
     margin: 0;
-    font-family: "raleway";
+    font-family: "raleway", Helvetica, sans-serif;
+    text-align: center;
 }
 #logo_link {
     padding-top: 5px;
