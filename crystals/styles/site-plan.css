@@ -4,10 +4,10 @@ Fonts are separated by a | */@import url('https://fonts.googleapis.com/css2?fami
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #457eac;
+  --primary-color: #000000;
   --secondary-color: #2d5d7b ;
   --accent1-color: #c2aff0;
-  --accent2-color: #9191e9;
+  --accent2-color: #aeaeef;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Raleway";
@@ -21,7 +21,7 @@ Fonts are separated by a | */@import url('https://fonts.googleapis.com/css2?fami
   --paragraph-background-color: #457eac  ;
   --nav-link-color: #457eac;
   --nav-background-color: #c2aff0;
-  --nav-hover-link-color: #9191e9;
+  --nav-hover-link-color: #aeaeef;
   --nav-hover-background-color: white;
 }
 
