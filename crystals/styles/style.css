@@ -86,8 +86,8 @@ header {
    box-shadow: 5px 5px 10px #919;
 }
 footer {
-   background-color:  #c2aff0;
-   color: #9191e9;
+   background-color:  #aeaeef;
+   color: #457eac;
    padding: 25px 50px;
    margin-top: 200px;
    display: flex;
@@ -166,7 +166,8 @@ footer .social img {
     padding-top: 15px;
 }
 .herkimer-card {
-    margin: 200px 0;
+    margin-top: 100px;
+    margin-bottom: 50px;
     grid-column: 3/5;
     grid-row: 1/2;
 }
@@ -176,7 +177,8 @@ footer .social img {
     grid-row: 0/1;
 }
 .lemon-card {
-    margin: 200px 0;
+    margin-top: 100px;
+    margin-bottom: 50px;
     grid-column: 7/9;
     grid-row: 1/2;
 }
