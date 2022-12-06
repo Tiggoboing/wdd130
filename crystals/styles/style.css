@@ -365,6 +365,7 @@ main section img {
     .Herkimer, .Lemon {
         margin-left: auto;
         font-size: 23px;
+        display: block;
     }
     #background {
         display: none;
